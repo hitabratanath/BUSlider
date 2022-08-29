@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "insight-carousel-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/insightCarousel/InsightCarouselWebPart.js",
+          "manifest": "./src/webparts/insightCarousel/InsightCarouselWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InsightCarouselWebPartStrings": "lib/webparts/insightCarousel/loc/{locale}.js"
+  }
+}

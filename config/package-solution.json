@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "insight-carousel-client-side-solution",
+    "id": "0601b39e-a5ad-4074-83be-42ca29adf862",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "insight-carousel description"
+      },
+      "longDescription": {
+        "default": "insight-carousel description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "insight-carousel Feature",
+        "description": "The feature that activates elements of the insight-carousel solution.",
+        "id": "c67ed794-e9a7-40c1-930c-abceae53965c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/insight-carousel.sppkg"
+  }
+}

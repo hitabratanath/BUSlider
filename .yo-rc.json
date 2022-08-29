@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "insight-carousel",
+    "libraryId": "0601b39e-a5ad-4074-83be-42ca29adf862",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "insight-carousel",
+    "solutionShortDescription": "insight-carousel description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
