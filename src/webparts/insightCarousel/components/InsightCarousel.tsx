@@ -68,7 +68,7 @@ const InsightCarousel = ({ list, imageCount }) => {
         />
       </div>
       <Carousel showThumbs={false} showStatus={false} onClickItem={handleClick} infiniteLoop={true} autoPlay={true}>
-        {data.length && data.map(item => <div style={{ backgroundImage: `url('${item.ImageLink}')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', height: '50vh' }}></div>)}
+        {data.length && data.map(item => <img src={`${item.ImageLink}`} style={{ height: 'auto', maxWidth: '100%' }} />)}
       </Carousel>
     </div>
   )
